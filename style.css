@@ -240,7 +240,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px 60px 40px;
+  padding: 14px 40px 14px 40px;
 }
 
 .footer-sec {
@@ -251,7 +251,6 @@ body {
 .footer-sec-cont {
   position: relative;
   overflow: hidden;
-  padding: 20px;
 }
 
 .footer-sec-cont img {

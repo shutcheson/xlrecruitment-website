@@ -6,11 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const target = document.querySelector(this.getAttribute("href"));
       if (target) {
+        target.style.scrollBehavior = "smooth";
         target.scrollIntoView({
           behavior: "smooth",
-          block: "start", // Scroll to the start of the target
-          inline: "nearest", // Scroll to the nearest edge
+          block: "start", 
+          inline: "nearest",
         });
+        target.style.scrollBehavior = "auto";
       }
     });
   });
