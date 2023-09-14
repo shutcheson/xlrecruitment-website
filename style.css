@@ -109,7 +109,6 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
 .section {
   height: 100vh;
 }
@@ -264,7 +263,6 @@ body {
 .footer-sec-cont h3 {
   color: white;
   font-size: 24px;
-
 }
 
 .footer-sec-cont h4 {
@@ -281,8 +279,14 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0.9698004201680672) 0%, rgba(0,0,0,0.8717612044817927) 0%, rgba(0,0,0,0.23310574229691872) 2%, rgba(0,0,0,0) 7%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9698004201680672) 0%,
+    rgba(0, 0, 0, 0.8717612044817927) 0%,
+    rgba(0, 0, 0, 0.23310574229691872) 2%,
+    rgba(0, 0, 0, 0) 7%
+  );
 }
 
 .image-overlay2 {
@@ -291,10 +295,12 @@ background: linear-gradient(0deg, rgba(0,0,0,0.9698004201680672) 0%, rgba(0,0,0,
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0.9698004201680672) 0%, rgba(0,0,0,0.8717612044817927) 0%, rgba(0,0,0,0.23310574229691872) 2%, rgba(0,0,0,0) 7%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9698004201680672) 0%,
+    rgba(0, 0, 0, 0.8717612044817927) 0%,
+    rgba(0, 0, 0, 0.23310574229691872) 2%,
+    rgba(0, 0, 0, 0) 7%
+  );
 }
-
-
-
-
