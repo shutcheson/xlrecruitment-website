@@ -382,4 +382,20 @@ body {
   .section-outro-button button {
     font-size: 16px;
   }
+  .footer {
+    margin-top: 70px;
+    width: calc(100% - 60px);
+    height: 100px;
+  }
+
+  .footer-sec-cont h3 {
+    font-size: 14px;
+  }
+  .footer-sec-cont h4 {
+    font-size: 14px;
+  }
+
+  #img-sec {
+    display: none;
+  }
 }
