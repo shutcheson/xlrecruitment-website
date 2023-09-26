@@ -304,3 +304,82 @@ body {
     rgba(0, 0, 0, 0) 7%
   );
 }
+
+/*============ Mobile Responsive Css ============*/
+
+/* Tablet View */
+@media (max-width: 1024px) {
+}
+
+/* Large Mobile Landscape View */
+@media screen and (max-width: 916px) {
+}
+
+/* Mobile Landscape View */
+@media (max-width: 768px) {
+}
+
+/* Mobile Portrait View */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 36px;
+    margin-left: 34px;
+    padding-left: 0;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+    margin-left: 34px;
+  }
+
+  .section-intro {
+    padding-left: 20px;
+  }
+
+  .section-intro h2 {
+    font-size: 24px;
+  }
+
+  .section-intro p {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .section-sectors {
+    margin-left: -20px;
+  }
+  .sector h2 {
+    font-size: 18px;
+  }
+
+  .sector img {
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .section-outro {
+    width: calc(100% - 40px);
+    padding-top: 46px;
+    padding-bottom: 10px;
+  }
+  .section-outro h2 {
+    left: 20px;
+    font-size: 24px;
+  }
+
+  .section-outro p {
+    font-size: 16px;
+    left: 20px;
+    width: calc(100% - 40px);
+    position: static;
+  }
+
+  .section-outro-button {
+    left: 20px;
+    margin-top: 0;
+  }
+
+  .section-outro-button button {
+    font-size: 16px;
+  }
+}
