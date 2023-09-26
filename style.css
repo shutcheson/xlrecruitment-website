@@ -327,16 +327,19 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    height: 100px;
   }
   .navbar-links {
     text-align: center; /* Center-align links in mobile mode */
     margin-left: 200px;
     padding-top: 0;
+    padding-bottom: 0;
   }
 
   .navbar img {
     height: 30px;
     padding-bottom: 6px;
+    padding-top: 6px;
   }
   .navbar a {
     font-size: 14px;
@@ -375,6 +378,8 @@ body {
   .sector img {
     padding: 8px;
     border-radius: 10px;
+    width: calc(100% - 40px);
+
   }
 
   .section-outro {
