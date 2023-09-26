@@ -321,6 +321,26 @@ body {
 
 /* Mobile Portrait View */
 @media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar-links {
+    text-align: center; /* Center-align links in mobile mode */
+    margin-left: 200px;
+    padding-top: 0;
+  }
+
+  .navbar img {
+    height: 30px;
+    padding-bottom: 6px;
+  }
+  .navbar a {
+    font-size: 14px;
+  }
   .hero h1 {
     font-size: 36px;
     margin-left: 34px;
